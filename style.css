@@ -15,7 +15,7 @@ body {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(5, 40px);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
     justify-content: center;
     margin-bottom: 20px;
@@ -30,7 +30,6 @@ body {
     border: 1px solid #ccc;
     font-size: 20px;
     background-color: white;
-    direction: rtl;
 }
 
 .cell.correct {
